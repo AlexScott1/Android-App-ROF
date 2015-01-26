@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ring Of Fire"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.75"
+        android:gravity="center|bottom"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.24">
+
+            <Button
+                android:id="@+id/button2"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="232dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center"
+                android:text="Draw Card"
+                android:layout_weight="0.26"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="218dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Card Recieved: NONE"
+                android:id="@+id/textView2"
+                android:layout_gravity="center_horizontal"
+                android:singleLine="true"
+                android:layout_weight="0.24"
+                android:layout_marginBottom="69dp"
+                android:layout_above="@+id/button2"
+                android:layout_centerHorizontal="true" />
+
+            <ExpandableListView
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:id="@+id/expandableListView"
+                android:layout_gravity="right"
+                android:layout_alignParentTop="true"
+                android:layout_alignRight="@+id/button2"
+                android:layout_alignEnd="@+id/button2" />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="122dp"
+                android:layout_height="wrap_content"
+                android:text="EDIT CARDS"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="34dp"
+                android:layout_marginEnd="34dp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

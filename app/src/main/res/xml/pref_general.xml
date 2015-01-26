@@ -1,0 +1,129 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:key="ace_list"
+        android:title="@string/ace_title"
+        android:defaultValue="Waterfall"
+        android:entries="@array/ace_list_titles"
+        android:entryValues="@array/ace_list_titles"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null" />
+
+    <ListPreference
+        android:key="two_list"
+        android:title="@string/two_title"
+        android:defaultValue="You"
+        android:entries="@array/two_list_titles"
+        android:entryValues="@array/two_list_titles"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null" />
+
+    <ListPreference
+        android:key="three_list"
+        android:title="@string/three_title"
+        android:defaultValue="Me"
+        android:entries="@array/three_list_titles"
+        android:entryValues="@array/three_list_titles"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null" />
+
+    <ListPreference
+        android:key="four_list"
+        android:title="@string/four_title"
+        android:defaultValue="Whores"
+        android:entries="@array/four_list_titles"
+        android:entryValues="@array/four_list_titles"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null" />
+
+    <ListPreference
+        android:key="five_list"
+        android:title="@string/five_title"
+        android:defaultValue="Thumb Master"
+        android:entries="@array/five_list_titles"
+        android:entryValues="@array/five_list_titles"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null" />
+
+    <ListPreference
+        android:key="six_list"
+        android:title="@string/six_title"
+        android:defaultValue="Dicks"
+        android:entries="@array/six_list_titles"
+        android:entryValues="@array/six_list_titles"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null" />
+
+    <ListPreference
+        android:key="seven_list"
+        android:title="@string/seven_title"
+        android:defaultValue="Heaven"
+        android:entries="@array/seven_list_titles"
+        android:entryValues="@array/seven_list_titles"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null" />
+
+    <ListPreference
+        android:key="eight_list"
+        android:title="@string/eight_title"
+        android:defaultValue="Mate"
+        android:entries="@array/eight_list_titles"
+        android:entryValues="@array/eight_list_titles"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null" />
+
+    <ListPreference
+        android:key="nine_list"
+        android:title="@string/nine_title"
+        android:defaultValue="Rhyme"
+        android:entries="@array/nine_list_titles"
+        android:entryValues="@array/nine_list_titles"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null" />
+
+    <ListPreference
+        android:key="ten_list"
+        android:title="@string/ten_title"
+        android:defaultValue="Category"
+        android:entries="@array/ten_list_titles"
+        android:entryValues="@array/ten_list_titles"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null" />
+
+    <ListPreference
+        android:key="jack_list"
+        android:title="@string/jack_title"
+        android:defaultValue="Make a Rule"
+        android:entries="@array/jack_list_titles"
+        android:entryValues="@array/jack_list_titles"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null" />
+
+    <ListPreference
+        android:key="queen_list"
+        android:title="@string/queen_title"
+        android:defaultValue="Question Master"
+        android:entries="@array/queen_list_titles"
+        android:entryValues="@array/queen_list_titles"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null" />
+
+    <ListPreference
+        android:key="king_list"
+        android:title="@string/king_title"
+        android:defaultValue="King Cup"
+        android:entries="@array/king_list_titles"
+        android:entryValues="@array/king_list_titles"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null" />
+
+    <!-- NOTE: EditTextPreference accepts EditText attributes. -->
+    <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
+
+
+    <!-- NOTE: Hide buttons to simplify the UI. Users can touch outside the dialog to
+         dismiss it. -->
+    <!-- NOTE: ListPreference's summary should be set to its value by the activity code. -->
+
+
+</PreferenceScreen>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Screen 2 (settings)"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="\n\n\nAce\n2\n3\n4\n5\n6\n7\n8\n9\nJack\nQueen\nKing"
+        android:id="@+id/textView"
+        android:layout_weight="1.15"
+        android:textAlignment="center"
+        android:textSize="24dp"
+        android:clickable="false"
+        android:editable="false"
+        android:enabled="true" />
+
+</LinearLayout>

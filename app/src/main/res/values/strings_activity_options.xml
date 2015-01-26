@@ -1,0 +1,156 @@
+<resources>
+    <string name="title_activity_options">The Cards</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">What each card does</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_the_cards">What each card does</string>
+    <string name="pref_title_pick_a_set">Pick a set</string>
+
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+    <!-- Titles for each of the cards (DON'T EDIT U PRICKS) -->
+    <string name="ace_title">Ace</string>7
+    <string name="pref_title_display_name_ace">Display name</string>
+    <string name="two_title">Two</string>
+    <string name="three_title">Three</string>
+    <string name="four_title">Four</string>
+    <string name="five_title">Five</string>
+    <string name="six_title">Six</string>
+    <string name="seven_title">Seven</string>
+    <string name="eight_title">Eight</string>
+    <string name="nine_title">Nine</string>
+    <string name="ten_title">Ten</string>
+    <string name="jack_title">Jack</string>
+    <string name="queen_title">Queen</string>
+    <string name="king_title">King</string>
+
+    <!-- Rules for each of the cards (DON'T EDIT U PRICKS) -->
+    <string-array name="ace_list_titles">
+        <item>Waterfall</item>
+        <item>DICKS ON THE TABLE</item>
+    </string-array>
+
+    <string-array name="two_list_titles">
+        <item>You</item>
+        <item>COCKS ON THE TABLE</item>
+    </string-array>
+
+    <string-array name="three_list_titles">
+        <item>Me</item>
+        <item>SHLONGS ON THE TABLE</item>
+    </string-array>
+
+    <string-array name="four_list_titles">
+        <item>Whores</item>
+        <item>PENISES ON THE TABLE</item>
+    </string-array>
+
+    <string-array name="five_list_titles">
+        <item>Thumb Master</item>
+        <item>MEAT SWORDS ON THE TABLE</item>
+    </string-array>
+
+    <string-array name="six_list_titles">
+        <item>Dicks</item>
+        <item>ONE EYED SNAKES ON THE TABLE</item>
+    </string-array>
+
+    <string-array name="seven_list_titles">
+        <item>Heaven</item>
+        <item>SAUSAGES ON THE TABLE</item>
+    </string-array>
+
+    <string-array name="eight_list_titles">
+        <item>Mate</item>
+        <item>ROD OF PLEASURES ON THE TABLE</item>
+    </string-array>
+
+    <string-array name="nine_list_titles">
+        <item>Rhyme</item>
+        <item>BABY MAKERS ON THE TABLE</item>
+    </string-array>
+
+    <string-array name="ten_list_titles">
+        <item>Category</item>
+        <item>LOVE MUSCLES ON THE TABLE</item>
+    </string-array>
+
+    <string-array name="jack_list_titles">
+        <item>Make a Rule</item>
+        <item>WILLIES ON THE TABLE</item>
+    </string-array>
+
+    <string-array name="queen_list_titles">
+        <item>Question Master</item>
+        <item>TROUSER SNAKES ON THE TABLE</item>
+    </string-array>
+
+    <string-array name="king_list_titles">
+        <item>King Cup</item>
+        <item>Moisture and heat seeking venomous throbbing python of loves ON THE TABLE</item>
+    </string-array>
+
+
+
+
+
+
+
+
+
+</resources>
